@@ -52,6 +52,13 @@ class Quiz {
         var correctAns = "2";
 //check the condition whether player answer and correct ans are equal
 //if equal fill with green 
+if(correctAns === allContestants[plr].answer){
+  fill("green")
+}
+else{
+  fill("red")
+}
+
 //if not equal fill with red
         
 
